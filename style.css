@@ -1,0 +1,562 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1581609836630-9007630f7a7b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80);
+    background-size: cover;
+    background-position: top;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-around;
+}
+#nav1{
+    display: flex;
+    gap: 2rem;
+    padding: 20px;
+    align-items: flex-start;
+    margin-top: 2rem;
+}
+#nav1 p{
+    color: #fff;
+    
+}
+#nav2{
+    display: flex;
+   margin-top: 2.6rem;
+   /* position: absolute;
+   left: 50%; */
+}
+#nav2 p{
+color: #fff;
+font-size: 1.5rem;
+text-transform: uppercase;
+align-content: center;
+
+}
+
+#nav3{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#nav3 button{
+    height: 40px;
+    width: 140px;
+    padding: 4px 8px;
+    text-transform: uppercase;
+margin-top: 2.6rem;
+background-color: #d8b06a;
+border: none;
+color: rgb(76, 73, 73);
+font-weight: bold;
+}
+#content{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    line-height: 6rem;
+}
+#content h2{
+    color: #d8b06a;
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-family: "Voyage";
+}
+#content h1{
+    color: #fff;
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+#content p{
+    color: #d8b06a;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+#awards{
+   position: absolute;
+   top: 55%;
+}
+#awards img{
+    width: 15rem;
+ filter: grayscale(100);
+}
+#btmnav{
+    position: absolute;
+    top: 90%;
+    width: 100%;
+}
+
+ #btmnav p{
+    position: absolute;
+    top: 90%;
+    color: #fff;
+    font-size: 1rem;
+    left: 5%;
+}
+#connect{
+    position: absolute;
+    right: 5%;
+
+}
+.one{
+margin-left: 77%;
+}
+.two{
+    margin-left: 80%;
+    }
+    .three{
+        margin-left: 83%;
+        }
+        .four{
+            margin-left: 86%;
+            }
+
+
+#second{
+    background-color: #000;
+
+    background-image: url(https://images.unsplash.com/photo-1460355976672-71c3f0a4bdac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjF8fGRhcmt8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60);
+    background-size: cover;
+    height: 150%;
+    width: 100%;
+} 
+#second img{
+    width: 10rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,120%)
+}
+#second h1{
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,620%)
+}
+ #content2{
+    color: #fff;
+    width: 40rem;
+    text-align: center;
+    font-family: "Voyage";
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: 135%;
+    transform: translate(-50%,-50%);
+    letter-spacing: 2px;
+}
+#content2 h2{
+line-height: 9rem;
+font-size: 3rem;
+font-weight: 700;
+}
+#content2 p{
+    line-height: 2rem;
+    color: gray;
+    text-transform: capitalize;
+}
+#content2 i{
+    color: #fff;
+}
+#pr{
+    color: #d8b06a;
+    font-family: "Voyage";
+    font-size: 3rem;
+    display: flex;
+    gap: 12rem;
+    position: absolute;
+    top: 160%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#pro{
+    color: gray;
+    font-family: "Voyage";
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    position: absolute;
+    width: 63rem;
+    top: 170%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#content3 span{
+    color: #d8b06a;
+  font-size: 7rem;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 180%;
+  left: 15%;
+}
+#content3 h1{
+    font-family: "Voyage";
+    text-transform: uppercase;
+    position: absolute;
+    text-align: right;
+    top: 65%;
+    left: 29%;
+    font-size: 3rem;
+}
+#content3 p{
+    font-family: "Voyage";
+    text-transform: uppercase;
+    position: absolute;
+    color: #fff;
+    top: 215%;
+    left: 15%;
+    font-size: 1rem;
+    text-align: right;
+    letter-spacing: 3px;
+}
+#image img{
+    width: 700px;
+    position: absolute;
+    top: 120%;
+    left: 70%;
+}
+#image p{
+    color: #fff;
+    top: 203%;
+    left: 68%;
+    font-size: 4rem;
+    position: absolute;
+}
+#imag{
+    display: flex;
+    gap: 5rem;
+    position: absolute;
+    bottom: -147%;
+    right: 18%;
+}
+#imag h4{
+    color: #fff;
+    font-family: "Voyage";
+    font-size: 2rem;
+   text-transform: uppercase;
+   border-bottom: #d8b06a solid 2px ;
+   border-width: 2px;
+}
+
+#third{
+    background-color: #121212;
+    height: 100%;
+    width: 100%;
+}
+
+#third img{
+    width: 10rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,50%)
+}
+#third h1{
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,350%)
+}
+
+#content4{
+  
+}
+
+#content4 h1{
+    color: #fff;
+    font-family: "Voyage";
+    font-size: 3rem;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    top: 250%;
+}
+
+#content4 p{
+    color: gray;
+    font-family: "Voyage";
+    text-transform: uppercase;
+    width: 650px;
+    text-align: center;
+    position: absolute;
+  top: 285%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+#crew{
+display: flex;
+/* gap: 12rem; */
+flex-wrap: wrap;
+justify-content: space-evenly;
+
+
+}
+#part1{
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    position: absolute;
+    top: 290%;
+}
+#part2{
+    display: flex;
+    gap: 5rem;
+    position: absolute;
+    top: 320%;
+}
+#one{
+height: 200px;
+width: 200px;
+background-image: url(https://images.unsplash.com/photo-1580518337843-f959e992563b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWN0b3JzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+background-position: center;
+background-size: cover;
+}
+#two{
+    height: 200px;
+    width: 200px;
+    background-image: url(https://images.unsplash.com/photo-1600385546605-536b691202df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGFjdG9yc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60);  
+    background-position: center;
+    background-size: cover;
+}
+#three{
+    height: 200px;
+width: 200px;
+background-image: url(https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YWN0b3JzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60);
+background-position: top;
+background-size: cover;
+}
+#four{
+    height: 200px;
+    width: 200px;
+    background-image: url(https://images.unsplash.com/photo-1580518324671-c2f0833a3af3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGFjdG9yc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60); 
+    background-position: center;
+    background-size: cover;
+}
+#five{
+    height: 200px;
+width: 200px;
+background-image: url(https://images.unsplash.com/photo-1607569490015-7101095605ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGFjdHJlc3N8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60);
+background-position: center;
+background-size: cover;
+}
+#six{
+    height: 200px;
+width: 200px;
+background-image: url(https://images.unsplash.com/photo-1533392151650-269f96231f65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTJ8fGFjdHJlc3N8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60);
+background-position: top;
+background-size: cover;
+}
+
+#carousel{
+    background-image: url(https://images.unsplash.com/photo-1526724147956-cd1b1296d311?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c3Vuc2V0JTIwZGFya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60);
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+}
+#photo img{
+    background-image: url();
+    width: 7rem;
+    height: 7rem;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    border-radius: 88px;
+    top: 365%;
+    left: 20%;
+}
+#carousel h2{
+    color: #fff;
+    font-family: "Voyage";
+    font-size: 2rem;
+    text-transform: capitalize;
+    width: 60rem;
+    position: absolute;
+    top: 365%;
+    left: 30%;
+}
+#carousel p{
+    color: gray;
+    font-size: 3rem;
+    
+}
+#left{
+    position: absolute;
+    top: 370%;
+    left: 10%;
+}
+#right{
+    position: absolute;
+    top: 370%;
+    right: 10%;
+    
+}
+
+#fourth{
+    height: 100%;
+    width: 100%;
+background-color: #121212;
+
+}
+#fourth img{
+    width: 10rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,50%)
+}
+#fourth h1{
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,350%)
+}
+#fourth h2{
+    color: #fff;
+    font-size: 3rem;
+    font-family: "Voyage";
+    text-transform: uppercase;
+    position: absolute;
+    top: 430%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#gallery img{
+    width: 800px;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 420%;
+}
+#gallery p{
+    color: #fff;
+    font-family: "Voyage";
+    font-size: 2rem;
+   
+   
+}
+
+#ppp{
+    display: flex;
+    gap: 4rem;
+   position: absolute;
+   transform: translate(-50%);
+   top: 490%;
+   left: 50%;
+}
+
+#fifth{
+    height: 120%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1516638129451-1a136c7bd25b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjUzfHxkYXJrc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60);
+    font-family: "Voyage";
+background-size: cover;
+background-position: center;
+}
+
+#content5{
+    font-size: 3rem;
+    font-family: "Voyage";
+    text-align: center;
+}
+#content5 h1{
+    color: #d8b06a;
+    position: absolute;
+    top: 520%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#content5 h2{
+    color: #fff;
+    position: absolute;
+    top: 530%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+}
+#content5 button{
+    background-color: #d8b06a;
+    color: rgb(48, 45, 45);
+    border: none;
+    height: 50px;
+    width: 150px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    position: absolute;
+    top: 540%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#content5 p{
+    color: gray;
+    font-size: 0.5rem;
+    width: 40%;
+    position: absolute;
+    top: 555%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    letter-spacing: 4px;
+    line-height: 2rem;
+}
+#content5 span{
+    color: #fff;
+    font-size: 1rem;
+}
+#awardz{
+
+}
+#awardz{
+    position: absolute;
+    top: 560%;
+    left: 50%;
+    transform: translate(-50%);
+ }
+ #awardz img{
+     width: 15rem;
+  filter: grayscale(100);
+ }
+
+ #s{
+    display: flex;
+    gap: 6rem;
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    top: 600%;
+    left: 50%;
+    transform: translate(-50%);
+ }
+
+ #ss{
+    display: flex;
+    gap: 2rem;
+    color: gray;
+    position: absolute;
+    top: 610%;
+    left: 50%;
+    transform: translate(-50%);
+ }
+
+ #sss{
+    color: gray;
+    text-transform: capitalize;
+    position: absolute;
+    top: 615%;
+    left: 50%;
+    transform: translate(-50%);
+ }
